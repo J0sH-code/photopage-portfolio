@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    background-color: #F2F2F2;
+}
+
+.main{
+   background-image: url(.//Assets/Images/Home\ BG\ image.jpg);
+   height: 100vh;
+   background-size: cover;
+}
+
+.opacity{
+    background-color: #000000A6;
+}
+
+.title{
+    position: relative;
+    color: #F2F2F2;
+    display: flex ;
+    height: 100vh;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    
+}
+
+.title h2{
+    font-size: 3rem;
+    font-family: 'Garamond', sans-serif;
+    font-weight: lighter;
+    margin: 0;
+    
+}
+
+.title p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    flex-grow: 0;
+    max-width: 60%;
+    text-align: center;
+    letter-spacing: .05rem;
+    margin-bottom: 0;
+}
+
+#pho{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.navbar{
+    position: fixed;
+    font-family: 'Quicksand', sans-serif;
+    right: 35px;
+    top: 5px;
+    z-index: 1000;
+}
+
+.navbar ul{
+    margin: 0;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;    
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #EAE4D5;
+    padding: 5px;
+}
+
+.navbar a:hover{
+    background-color: #B6B09F;
+    color: black;
+    padding: px;
+    border-radius: 5px;
+}
+
+.break{
+    background-color: #000000D9;
+    backdrop-filter: blur(15px);
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 900;
+}
+  
